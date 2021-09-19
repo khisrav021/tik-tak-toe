@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tik tak toe</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    
+    <select class="change-lang">
+        <option value="en" selected>EN</option>
+        <option value="ru">RU</option>
+    </select>
+    <div class="content">
+
+        <div class="currentPlayer">
+            <span><span class="walksLanguage">Walks now:</span> <span id="curPlyr">X</span></span>
+        </div>
+
+        <div id="area"></div>
+
+        <div class="stat">
+            <table>
+                <th colspan="2" class="statisticsLanguage">Statistics</th>
+                <tr>
+                    <td>X</td>
+                    <td><span id="sX">0</span></td>
+                </tr>
+                <tr>
+                    <td>O</td>
+                    <td><span id="sO">0</span></td>
+                </tr>
+                <tr>
+                    <td class="drawsLanguage">Draws</td>
+                    <td><span id="sD">0</span></td>
+                </tr>
+            </table>
+        </div>
+
+        <script src="./index.js"></script>
+    </div>
+</body>
+
+</html>
