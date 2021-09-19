@@ -1,5 +1,9 @@
 * {margin: 0; padding: 0;}
 
+body{
+    overflow-x: hidden;
+}
+
 .content {
     display: flex;
     margin: 100px 50px 50px 50px;
@@ -52,3 +56,18 @@
     padding: 5px;
     text-align: center;
 }
+
+@media only screen and (max-width: 500px) {
+    .currentPlayer{
+        margin: auto;
+    }
+    #area{
+        margin: auto;
+    }
+    .content {
+        display: block;
+    }
+    .stat{
+        margin: auto;
+    }
+  }
